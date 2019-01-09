@@ -15,7 +15,7 @@ Para baixar o código você deve clicar no botão 'fork' e então, clonar o repo
 Antes de mais nada você precisa instalar o [Node](https://nodejs.org/pt-br/) no seu PC. Após isso, você já pode instalar as dependências executando o seguinte comando:
 
 ```bash
-  npm i request cheerio
+$ npm i request cheerio
 ```
 
 ## Comandos
@@ -23,11 +23,11 @@ Antes de mais nada você precisa instalar o [Node](https://nodejs.org/pt-br/) no
 Já no diretório do node-news, você pode executar os seguintes comando:
 
 ```bash
-  node news (mostra as notícias)
+$ node news (mostra as notícias)
 
 ou
 
-  node go (abre a página no seu navegador)
+$ node go (abre a página no seu navegador)
 ```
 
 ## Criando um comando personalizado
@@ -37,5 +37,5 @@ ou
 Para criar um comando personalizado no Linux é fácil, basta digitar no terminal:
 
 ```bash
-  alias nomeDoComando='dentro das aspas simples vai o seu comando'
+$ alias nomeDoComando='dentro das aspas simples vai o seu comando'
 ```
